@@ -12,7 +12,7 @@
 ## Dataset
 **ActivityNet v1.3** (annotation file `activity_net.v1-3.min.json`, ~4.7 MB, 19,994 videos).
 - Why: video dataset with real, pre-attached annotations (labeled time segments), plus duration, subset, resolution and a category taxonomy, so the summary and filters have real metadata to work with. Only the annotation file is needed, not the videos.
-- Searched/tried: TODO (list what else you looked at and why you moved on, e.g. Kinetics, Charades).
+- Searched/tried: I came across it at the first search and moved forward with it.
 
 ## How to run (Mac/Linux, needs only Python 3 and bash)
 ```bash
@@ -37,6 +37,8 @@ JSON API: `/api/videos?q=surf&subset=validation&limit=20`
 - README + testing: 10 minutes
 
 ## Reflections
-**What would I improve with two more hours?** Could add apreview youtube video without clicking the actual video just for the ease of testing on the same frontend and also make the frontend more hands-on and easy to work on.
+**What would I improve with two more hours?** 
+Could add a preview youtube video without clicking the actual video just for the ease of testing on the same frontend and also make the frontend more hands-on and easy to work on.
 
-**One thing I didn't know how to do, and how I figured it out:** the raw-URL 404, the wrong-folder issue, python vs python3
+**One thing I didn't know how to do, and how I figured it out:** 
+The raw-URL 404, wrong-folder issue, python vs python3.
